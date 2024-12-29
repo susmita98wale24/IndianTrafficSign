@@ -26,7 +26,11 @@ Implementation Steps:
 Collected a dataset of Indian traffic signs and preprocessed images (resizing, normalization).
 Split the dataset into training and validation sets.
 
-2. Flask Integration:
+2. Model Development:
+Designed a CNN with multiple convolutional and pooling layers for feature extraction.
+Used softmax activation for multi-class classification.
+
+3. Flask Integration:
 Saved the trained model as a .h5 file.
 Created a Flask app to load the model and handle image uploads.
 Deployed the app to provide real-time predictions.
